@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T06:00:32.288Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="IFd8CeE83hNXYCf5sUkq" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T09:14:48.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="5EY97pNGey7VqgGcPihY" version="22.1.5" type="github">
   <diagram name="第 1 页" id="1PYGeIxA74oQ378EOJbM">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="1920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-1" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="980" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Nacos&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CSJZNhdlkeYWHEngXMV1-4" target="CSJZNhdlkeYWHEngXMV1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-20" value="负载均衡" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CSJZNhdlkeYWHEngXMV1-19">
+          <mxGeometry x="-0.0435" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;GateWay&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#FF0000;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CSJZNhdlkeYWHEngXMV1-5" target="CSJZNhdlkeYWHEngXMV1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Nginx&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#FFFF66;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CSJZNhdlkeYWHEngXMV1-9" target="CSJZNhdlkeYWHEngXMV1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-9" value="WEB" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-11" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="CSJZNhdlkeYWHEngXMV1-4" target="CSJZNhdlkeYWHEngXMV1-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="sourcePoint" />
+            <mxPoint x="440" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-18" value="服务注册，配置拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CSJZNhdlkeYWHEngXMV1-11">
+          <mxGeometry x="0.1471" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CSJZNhdlkeYWHEngXMV1-12" target="CSJZNhdlkeYWHEngXMV1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-27" value="数据存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CSJZNhdlkeYWHEngXMV1-26">
+          <mxGeometry x="0.28" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-12" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="70" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;认证服务&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#CCE5FF;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;WEB服务&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#CCE5FF;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.642;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CSJZNhdlkeYWHEngXMV1-12" target="CSJZNhdlkeYWHEngXMV1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-17" value="服务注册，配置管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CSJZNhdlkeYWHEngXMV1-16">
+          <mxGeometry x="0.023" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-21" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;UDP服务&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#CCE5FF;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-22" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-23" value="Mysql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#994C00;" vertex="1" parent="1">
+          <mxGeometry x="865" y="20" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CSJZNhdlkeYWHEngXMV1-24" value="Redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="865" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
